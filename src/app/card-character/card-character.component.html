@@ -2,13 +2,16 @@
     <div class="card">
         <div class="face face1">
             <div class="content">
-                <img src="" alt="Image_Character" >
-                <h3>Name Character</h3>
+                <img [src]="character.image" alt="Image_Character" >
+                <h3>Name: {{character.name | uppercase }}</h3>
             </div>
         </div>
         <div class="face face2">
             <div class="content">
-                <p>Descripcion del personaje o datos utiles</p>
+                <p>Species: {{character.species}}</p>
+                <p>Location: {{character.location.name}}</p>
+                <p>Origin: {{character.origin.name}}</p>
+                <p>Status: {{character.status}}</p>
                 <a href="#"> Mas Detalles</a>
             </div>
         </div>
