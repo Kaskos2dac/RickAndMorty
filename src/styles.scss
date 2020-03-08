@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+$blueMidleDark: #1b1c3b;
+$blueMidleDark2: #111137;
+$blueMidleDark3: #19194d;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background: linear-gradient(to right, $blueMidleDark, $blueMidleDark2, $blueMidleDark3);
+}

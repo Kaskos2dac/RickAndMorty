@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+
+$colorLetter: #04aec6;
+$blueDark: #15162a;
+$blueMidleDark: #1b1c3b;
+$blueMidleDark2: #111137;
+$blueMidleDark3: #19194d;
+$greenLight: #b7ba49;
+$greenLive: #59a347;
+
+
+header, footer {
+    margin: 0;
+    width: 100vw;
+    max-height: 80px;
+    background: $greenLight;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1px;
+}
+
+header h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $colorLetter;
+    -webkit-text-stroke: 1px $blueDark ;
+}
+
+footer h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $colorLetter;
+    -webkit-text-stroke: 1px $blueDark ;
+}
+
+router-outlet {
+    margin: 1px;
+}
